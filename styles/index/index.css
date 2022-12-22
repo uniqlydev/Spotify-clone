@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(98,4,5,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.side-bar {
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.side-bar .spotify-logo {
+    width: 50%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 15pt;
+    margin-left: 15pt;
+}
+
+
+/* For home button */
+
+.side-bar .home-button {
+    width: 100%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 15pt;
+    cursor: pointer;
+}
+
+.side-bar .home-button .logo {
+    width: 25pt;
+    height: 20pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    margin-top: 12pt;
+    margin-left: 13pt;
+}
+
+.side-bar .home-button .home-text {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* For search button */
+
+.side-bar .search-button {
+    width: 100%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 5pt;
+    cursor: pointer;
+}
+
+.side-bar .search-button .logo {
+    width: 25pt;
+    height: 20pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    margin-top: 12pt;
+    margin-left: 13pt;
+}
+
+.side-bar .search-button .search-text {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* For Library button  */
+
+.side-bar .library-button {
+    width: 100%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 5pt;
+    cursor: pointer;
+}
+
+.side-bar .library-button .logo {
+    width: 25pt;
+    height: 20pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    margin-top: 12pt;
+    margin-left: 13pt;
+}
+
+.side-bar .library-button .library-text {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* For create playlist button */
+
+.side-bar .addplist-button {
+    width: 100%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.side-bar .addplist-button .logo {
+    width: 25pt;
+    height: 20pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    margin-top: 12pt;
+    margin-left: 13pt;
+}
+
+.side-bar .addplist-button .addplist-text {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* For liked songs button */
+
+.side-bar .favorites-button {
+    width: 100%;
+    height: 30pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    padding-left: 0.3rem;
+    margin-top: 5pt;
+    cursor: pointer;
+}
+
+.side-bar .favorites-button .logo {
+    width: 20pt;
+    height: 20pt;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    margin-top: 12pt;
+    margin-left: 13pt;
+}
+
+.side-bar .favorites-button .favorites-text {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+    color: white;
+    margin-top: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* For divider */
+.side-bar .divider {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-top: 1.5vh;
+    margin-bottom: 5vh;
+    margin-left: 10%;
+    opacity: 0.25;
+}
+
+
+
