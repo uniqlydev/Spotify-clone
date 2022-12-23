@@ -12,6 +12,8 @@ body {
     background: rgb(0,0,0);
     background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(98,4,5,1) 100%, rgba(0,212,255,1) 100%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 
@@ -70,4 +72,38 @@ body {
 .top-nav .forward-button .btnimg {
     width: 20pt;
     height: 15pt;
+}
+
+/* For profile button */
+.top-nav .profile-button {
+    border-radius: 20px;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #121212;
+    color: white;
+    border-color: transparent;
+    float: right;
+    margin: 15px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.top-nav .profile-button .profile-pic {
+    width: 23pt;
+    height: 25pt;
+    border-radius: 50%;
+    float: left;
+}
+
+.top-nav .profile-button .dropdown {
+    width: 15pt;
+    height: 15pt;
+    float: right;
+    transform: rotate(270deg);
+    align-items: center;
+    margin: 5px;
 }
